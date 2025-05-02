@@ -23,11 +23,13 @@
     text-align: center;
     color: blue;
     font-size: 60px;
+    width: 100%;
+    margin: auto;
 }
 
 .section1-meta-data{
     text-align: center;
-    color: blue;
+    color: #1877F2;
 }
 .section1-profile-picture{
     width: 400px;
@@ -39,7 +41,7 @@
 
 .text{
     text-align: center;
-    color: blue;
+    color: #1877F2  ;
 }
 
 .section2-box{
@@ -47,6 +49,7 @@
     padding: 30px;
     display: flex;
     justify-content: center;
+    margin: auto;
   }
   a:link, a:visited {
     padding: 14px 25px;
@@ -77,6 +80,16 @@
     text-align: center;
     background-color: #405DE6;
     margin: auto;
-    width:100%;
-    
+    width:100%;   
+}
+.menu-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1877F2   ;
+}
+.menu-item{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
 }
