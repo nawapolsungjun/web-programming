@@ -47,11 +47,8 @@
     justify-content: center;
   }
   a:link, a:visited {
-    color: white;
     padding: 14px 25px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
   }
 .section2-contact-link-facebook{
     color: white;
@@ -69,14 +66,15 @@
     display: flex;
 }
 .section2-box-a{   
+    text-align: center;
     background-color: blueviolet;
     margin: auto;
-    padding: 25%;
-    
-    
+    width:100%;
 }
 .section2-box-b{ 
+    text-align: center;
     background-color: #405DE6;
     margin: auto;
-    padding: 25%;
+    width:100%;
+    
 }
