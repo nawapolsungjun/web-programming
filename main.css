@@ -1,8 +1,82 @@
-.section1-box{
+.krub-regular {
+    font-family: "Krub", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .tagesschrift-regular {
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .cal-sans-regular {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
+.section1-box{
+    background-color: #E0DAB8;
 }
 .section1-name {
     text-align: center;
     color: blue;
     font-size: 60px;
+}
+
+.section1-meta-data{
+    text-align: center;
+    color: blue;
+}
+.section1-profile-picture{
+    width: 400px;
+    height: auto;
+    margin-left: 35%;
+}
+
+.text{
+    text-align: center;
+    color: blue;
+}
+
+.section2-box{
+    background-color: #FFEB78;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  a:link, a:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+.section2-contact-link-facebook{
+    color: white;
+    background-color: #1877F2;
+}
+.section2-contact-link-ig{
+    color: white;
+    background-image: linear-gradient(to bottom right,#405DE6,#C13584,#FCAF45);
+}
+.section2-contact-link-line{
+    color: white;
+    background-color: black;
+}
+.section3-box{
+    display: flex;
+}
+.section2-box-a{   
+    background-color: blueviolet;
+    margin: auto;
+    padding: 25%;
+    
+    
+}
+.section2-box-b{ 
+    background-color: #405DE6;
+    margin: auto;
+    padding: 25%;
 }
