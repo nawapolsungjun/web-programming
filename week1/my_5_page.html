@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sukuna</title>
+    <style>
+       
+    </style>
+</head>
+
+<body>
+    <h2>กรอกอายุ</h2>
+    <input type="number" id="age-input"/>
+    <script>
+        document.getElementById("age-input").addEventListener("input", function () {
+            const value = this.value;
+            if (value < 20) {
+                alert("คุณยังไม่บรรลุนิติภาวะ");
+            } else {
+                alert("คุณบรรลุนิติภาวะแล้ว");
+            }
+        });
+    </script>
+</body>
+
+</html>
